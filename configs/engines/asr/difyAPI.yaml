@@ -14,23 +14,29 @@ PARAMETERS: [
     description: "Dify API Server.",
     type: "string",
     required: false,
-    choices: [],
-    default: ""
+    choices: [
+      "http://12.24.211.11/v1"
+    ],
+    default: "http://12.24.211.11/v1"
   },
   {
     name: "api_key",
     description: "Dify API Key.",
     type: "string",
     required: false,
-    choices: [],
-    default: ""
+    choices: [
+      "app-ssU59JCzQBHrVr5EXq8ULbhg"
+    ],
+    default: "app-ssU59JCzQBHrVr5EXq8ULbhg"
   },
   {
     name: "username",
     description: "Dify Username.",
     type: "string",
     required: false,
-    choices: [],
-    default: ""
+    choices: [
+      "唐果汁"
+    ],
+    default: "唐果汁"
   }
 ]
